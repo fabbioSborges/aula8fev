@@ -1,0 +1,11 @@
+{
+  "name": "aula8fev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fabbioSborges/aula8fev.git",
+  "author": "fabbioanderson@gmail.com <fabbioanderson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
