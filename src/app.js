@@ -2,6 +2,7 @@
 
 import express from 'express';
 import routes from './routes';
+import path from 'path'
 
 import './database';
 
@@ -16,6 +17,7 @@ class App {
     // cadastrar todos os middlewares da aplicação
 
     this.server.use(express.json());
+    this.server.use('/files', express.static(path.resolve(__dirname, '..', 'tmp', 'uploads')))
   }
 
   routes() {
